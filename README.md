@@ -1,3 +1,6 @@
+# Fork of [OAuth2 Package](https://pkg.go.dev/golang.org/x/oauth2)
+## This fork was done to address an issue in  [internal/token.go:198](https://github.com/finbox-in/oauth2/blob/3dd9cc33d30dc74755469ca65e58696a4dd5f776/internal/token.go#L198). Certain vendors require a `Accept` header which has now been updated to be set as `*/*`.
+
 # OAuth2 for Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/finbox-in/oauth2.svg)](https://pkg.go.dev/github.com/finbox-in/oauth2)
