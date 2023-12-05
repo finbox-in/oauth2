@@ -195,6 +195,7 @@ func newTokenRequest(tokenURL, clientID, clientSecret string, v url.Values, auth
 		return nil, err
 	}
 	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+	req.Header.Set("Accept", "*/*")
 	if authStyle == AuthStyleInHeader {
 		req.SetBasicAuth(url.QueryEscape(clientID), url.QueryEscape(clientSecret))
 	}
