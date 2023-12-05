@@ -8,7 +8,7 @@ package endpoints
 import (
 	"strings"
 
-	"golang.org/x/oauth2"
+	"github.com/finbox-in/oauth2"
 )
 
 // Amazon is the endpoint for Amazon.
@@ -68,8 +68,8 @@ var GitLab = oauth2.Endpoint{
 
 // Google is the endpoint for Google.
 var Google = oauth2.Endpoint{
-	AuthURL:  "https://accounts.google.com/o/oauth2/auth",
-	TokenURL: "https://oauth2.googleapis.com/token",
+	AuthURL:       "https://accounts.google.com/o/oauth2/auth",
+	TokenURL:      "https://oauth2.googleapis.com/token",
 	DeviceAuthURL: "https://oauth2.googleapis.com/device/code",
 }
 

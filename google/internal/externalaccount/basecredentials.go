@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google/internal/stsexchange"
+	"github.com/finbox-in/oauth2"
+	"github.com/finbox-in/oauth2/google/internal/stsexchange"
 )
 
 // now aliases time.Now for testing

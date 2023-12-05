@@ -11,9 +11,9 @@ import (
 	"log"
 	"net/http"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-	"golang.org/x/oauth2/jwt"
+	"github.com/finbox-in/oauth2"
+	"github.com/finbox-in/oauth2/google"
+	"github.com/finbox-in/oauth2/jwt"
 )
 
 func ExampleDefaultClient() {

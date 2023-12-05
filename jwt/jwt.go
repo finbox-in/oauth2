@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
-	"golang.org/x/oauth2/jws"
+	"github.com/finbox-in/oauth2"
+	"github.com/finbox-in/oauth2/internal"
+	"github.com/finbox-in/oauth2/jws"
 )
 
 var (

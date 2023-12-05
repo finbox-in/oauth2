@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/oauth2"
+	"github.com/finbox-in/oauth2"
 )
 
 const (

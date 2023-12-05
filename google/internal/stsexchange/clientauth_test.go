@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/oauth2"
+	"github.com/finbox-in/oauth2"
 )
 
 var clientID = "rbrgnognrhongo3bi4gb9ghg9g"

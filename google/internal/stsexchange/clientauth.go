@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"golang.org/x/oauth2"
+	"github.com/finbox-in/oauth2"
 )
 
 // ClientAuthentication represents an OAuth client ID and secret and the mechanism for passing these credentials as stated in rfc6749#2.3.1.

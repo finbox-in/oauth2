@@ -11,7 +11,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"golang.org/x/oauth2"
+	"github.com/finbox-in/oauth2"
 )
 
 var (
